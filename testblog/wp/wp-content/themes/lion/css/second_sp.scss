@@ -1,0 +1,105 @@
+.blog_title {
+  margin-top: 56px;
+  h1 {
+    font-size: 22px;
+    font-size: 2.2rem;
+    width: 100%;
+  }
+}
+
+.blog_category {
+  font-size: 15px;
+  font-size: 1.5rem;
+}
+
+#main_contents .blog_content {
+  .blog_image img {
+    width: 100%;
+  }
+  .information .article_sns {
+    height: 30px;
+    li {
+      margin: 0 10px 0 0;
+      a {
+        width: 30px;
+        height: 0;
+        padding-top: 30px;
+      }
+    }
+    .article_facebook a {
+      background: url(/kaze/images/icon_facebook2.png) no-repeat;
+      background-size: 30px auto;
+    }
+    .article_twitter a {
+      background: url(/kaze/images/icon_twitter.png) no-repeat;
+      background-size: 30px auto;
+    }
+    .article_hatena a {
+      background: url(/kaze/images/icon_hatena.png) no-repeat;
+      background-size: 30px auto;
+    }
+    .likebtn {
+      display: none;
+    }
+    .likebtn2 {
+      display: inline;
+      position: absolute;
+      top: 15%;
+    }
+  }
+  .submit_btn a {
+      font-size: 14px; font-size: 1.4rem;
+      padding: 20px 50px;
+  }
+  ul.ouendan{
+    display: block;
+    margin: 0 0 0 0;
+    li{
+      &.ouen_left{
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+      }
+      &.ouen_right{
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
+  }
+
+}
+
+#header_contents .menu_box .share_sp .likebtn2 {
+  padding-top: 6px;
+  margin-left: 10px;
+}
+
+.article .information .blog_date {
+  font-size: 11px;
+  font-size: 1.1rem;
+}
+
+.blogfinal {
+  font-size: 10px;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.article {
+  .keywords ul li, .sns ul li, .information ul li {
+    font-size: 7px;
+    font-size: 0.7rem;
+    margin: 0 5px 5px 0;
+  }
+}
+
+#main_contents .title img {
+  width: 100%;
+}
+
+#side_menu {
+  .ranking dl dd, .recommend dl dd {
+    width: 65%;
+  }
+}

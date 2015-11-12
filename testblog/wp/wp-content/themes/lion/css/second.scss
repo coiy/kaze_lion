@@ -1,0 +1,476 @@
+.blog_title {
+  background: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  p {
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+}
+
+.blog_title {
+  border-bottom: 4px solid #000;
+}
+
+.pankuzu {
+  font-size: 12px;
+  font-size: 1.2rem;
+  a:before {
+    padding-left: 5px;
+  }
+}
+
+.blog_title h1 {
+  font-size: 30px;
+  font-size: 3.0rem;
+  font-weight: normal;
+  color: #000000;
+}
+
+.blog_category {
+  font-size: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.tag_title {
+  color: #000;
+  font-weight: normal;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+p.pankuzu {
+  color: #000;
+  a {
+    color: #000;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+/* SHAREBbtn */
+
+.share_blog {
+  width: 100%;
+  display: inline-block;
+  li {
+    float: left;
+  }
+}
+
+/* Article */
+
+.article .blog_content {
+  padding: 10px;
+  background: #fff;
+  h2 {
+    font-size: 24px;
+    font-size: 2.4rem;
+    font-weight: normal;
+    border-bottom: 2px solid #000;
+    color: #000;
+    margin-top: 55px;
+  }
+  h3 {
+    margin: 50px auto 20px auto;
+    font-size: 24px;
+    font-size: 2.4rem;
+    font-weight: normal;
+    border-left: 10px solid #000;
+    padding-left: 10px;
+    color: #000;
+  }
+  h4 {
+    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Osaka", Arial, sans-serif;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-size: 1.8rem;
+    color: #5a5500;
+  }
+  p {
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #000;
+    margin-top: 20px;
+    &.sub {
+      font-size: 12px;
+      font-size: 1.2rem;
+      margin: 20px 0;
+    }
+  }
+  /*** detail ***/
+  .news_detail{
+    a:{
+      display: block;
+    }
+    a:hover p {
+      opacity: 1;
+    }
+    p{
+      color: #ffffff;
+      background: rgba(0, 0, 0, 0.6);
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      -ms-transition: all 0.4s;
+      -o-transition: all 0.4s;
+      transition: all 0.4s;
+      opacity: 0;
+      position: absolute;
+      bottom: 0px;
+      padding: 10px 10px;
+    }
+    img{
+      width: 100%;
+    }
+    .news_full{
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      margin: 15px 0;
+      p{
+        width: 100%;
+        text-align: center;
+      }
+    }
+    ul{
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      &.mrtop15{
+        margin-top:15px;
+      }
+      p{
+        width: 49%;
+      }
+      li{
+        &.news_l{
+          float: left;
+          width: 49%;
+        }
+        &.news_r{
+          float: right;
+          width: 49%;
+        }
+      }
+    }
+  }
+  /*** detail ***/
+  /*** ouendan ***/
+  ul.ouendan{
+    font-size: 14px;font-size: 1.4rem;
+    margin: 20px 0 20px;
+    display: inline-block;
+    li{
+      &.ouen_left{
+        float: left;
+        width: 49%;
+      }
+      &.ouen_right{
+        float: right;
+        width: 49%;
+      }
+      & img{
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      iframe{
+        width: 100% !important;
+        height: 100% !important;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  /*** ouendan ***/
+  /*** hyougiin ***/
+  ul.hyougiin{
+    font-size: 14px;font-size: 1.4rem;
+    display: inline-block;
+    line-height: 28px;
+    margin:0 0 30px 0;
+    li{
+      &.hyo_left{
+        float: left;
+        width: 27%;
+      }
+      &.hyo_right{
+        float: right;
+        width: 71%;
+      }
+      & img{
+        width: 100%;
+      }
+    }
+  }
+  /*** hyougiin ***/
+  dl{
+    margin-top: 30px;
+    border:1px solid #E6E4D7;
+    dt{
+      background: #E6E4D7;
+      font-size: 26px; font-size: 2.6rem;
+      padding: 20px 0;
+      text-align: center;
+    }
+    dd{
+      border-top: 1px solid #E6E4D7;
+      ul{
+        margin: 30px 0 20px 0;
+        li{
+          display: inline-block;
+          margin-left: 20px;
+          vertical-align: top;
+          font-size: 14px;
+          line-height: 24px;
+          span{
+            font-size: 11px; font-size: 1.1rem;
+          }
+        }
+      }
+    }
+  }
+  .yucho{
+    dt{
+      background: #E6E4D7;
+      font-size: 26px; font-size: 2.6rem;
+      padding: 20px 0;
+      text-align: center;
+    }
+    dd{
+      border-top:none;
+      p{
+        margin: 20px 0 20px 20px;
+      }
+    }
+  }
+  .yuchodetail{
+    border-left: 8px solid #E6E4D7;
+    padding-left: 15px;
+    margin: 30px 0 20px 30px;
+  }
+  .quote {
+    padding-left: 15px;
+    margin: 20px 0;
+    border-left: 10px solid #dcf0f0;
+    p {
+      &.title {
+        font-size: 16px;
+        font-size: 1.6rem;
+        position: relative;
+        display: inline-block;
+        font-weight: bold;
+        color: #000;
+        margin-top: 0px;
+        &:after {
+          content: '';
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0px;
+          border-bottom: solid 2px #596359;
+        }
+      }
+      &.text {
+        font-size: 12px;
+        font-size: 1.2rem;
+        color: #000;
+      }
+    }
+    .detail {
+      margin-top: 10px;
+      font-size: 14px;
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+  }
+  .blog_image {
+    margin: 20px 0;
+  }
+  .submit_btn {
+    margin: 50px auto;
+    text-align: center;
+    input{
+      font-size: 20px; font-size: 2rem;
+      padding: 20px 80px;
+      border: 1px solid;
+      cursor: pointer;
+      }
+  }
+  .info_receipt{
+    border: none;
+    font-size: 12px; font-size: 1.2rem;
+    margin: 30px 0 50px;
+    dt{
+      font-size: 15px; font-size: 1.5rem;
+      margin-top: 30px;
+      background: none;
+      padding: 0;
+      text-align: left;
+    }
+    dd{
+      border:none;
+      margin-top: 10px;
+      padding-left: 20px;
+      ul{
+        margin-top: 10px;
+      }
+      li{
+        margin-left: 0px;
+        vertical-align: middle;
+        font-size: 14px; font-size: 1.4rem;
+      }
+    }
+    .samewidth{
+      width: 15%;
+      display: inline-block;
+    }
+    .left_bar{
+      border-left: 8px solid #E6E4D7;
+    }
+    .space10{
+      margin: 0 10px;
+    }
+    .red{
+      color: #FF3000;
+    }
+  }
+  .link_blue a{
+    color: #0068C6;
+  }
+}
+
+.blog_image img {
+  width: 100%;
+}
+
+.article {
+  .keywords, .sns, .information {
+    margin-top: 30px;
+    background: #fff;
+    padding: 0px;
+  }
+  .keywords p, .sns p, .information p {
+    text-align: center;
+    font-size: 30px;
+    font-size: 3.0rem;
+    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Osaka", Arial, sans-serif;
+    margin-bottom: 20px;
+  }
+  .keywords ul li, .sns ul li, .information ul li {
+    display: inline-block;
+    font-size: 11px;
+    font-size: 1.1rem;
+    margin: 0 6px 5px 0;
+  }
+  .keywords ul li a, .sns ul li a, .information ul li a {
+    color: #000;
+    text-align: center;
+    background-color: #e6e4d7;
+    padding: 4px 5px;
+    display: block;
+  }
+  .keywords ul li a:hover, .sns ul li a:hover, .information ul li a:hover {
+    opacity: 0.7;
+  }
+  .sns, .information {
+    text-align: center;
+  }
+  .sns .article_sns, .information .article_sns {
+    height: 61px;
+    overflow: hidden;
+  }
+}
+
+li.likebtn {
+  vertical-align: top;
+}
+
+#main_contents .blog_content .information .article_sns .likebtn2 {
+  display: none;
+}
+
+.article {
+  .sns .article_sns li, .information .article_sns li {
+    margin: 0 10px 0 10px;
+  }
+  .sns .article_sns li a, .information .article_sns li a {
+    border: none;
+    display: block;
+    height: 0;
+    width: 50px;
+    padding-top: 58px;
+    overflow: hidden;
+  }
+  .sns .article_sns li.article_facebook a, .information .article_sns li.article_facebook a {
+    background: url(/images/icon_facebook2.png) no-repeat;
+    background-size: 60px;
+    width: 61px;
+    height: 61px;
+  }
+  .sns .article_sns li.article_twitter a, .information .article_sns li.article_twitter a {
+    background: url(/images/icon_twitter.png) no-repeat;
+    background-size: 60px;
+    width: 61px;
+    height: 61px;
+  }
+  .sns .article_sns li.article_hatena a {
+    background: url(/images/icon_hatena.png) no-repeat;
+    background-size: 60px;
+    width: 61px;
+    height: 61px;
+  }
+  .information {
+    .article_sns li {
+      &.article_hatena a {
+        background: url(/images/icon_hatena.png) no-repeat;
+        background-size: 60px;
+        width: 61px;
+        height: 61px;
+      }
+      margin: 0 20px 0 0;
+    }
+    padding: 0;
+    position: relative;
+    text-align: left;
+    margin: 2% 0 5% 0;
+    .blog_date {
+      font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Osaka", Arial, sans-serif;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      font-size: 14px;
+      font-size: 1.4rem;
+      margin-top: -20px;
+    }
+  }
+}
+
+.blogfinal {
+  text-align: center;
+  font-size: 11px;
+  font-size: 1.1rem;
+  color: #596359;
+  padding-top: 20px;
+  border-top: 1px solid #c7c7c7;
+}
+.modal {
+  display:    none;
+  position:   fixed;
+  z-index:    1000;
+  top:        0;
+  left:       0;
+  height:     100%;
+  width:      100%;
+  background: rgba( 255, 255, 255, .8 )
+  url('../images/loading.GIF')
+  50% 50%
+  no-repeat;
+}
+body.loading {
+  overflow: hidden;
+}
+body.loading .modal {
+  display: block;
+}
